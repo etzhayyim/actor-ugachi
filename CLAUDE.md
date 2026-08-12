@@ -1,4 +1,4 @@
-# com-etzhayyim-ugachi — CLAUDE.md
+# actor-ugachi — CLAUDE.md
 
 ## What this is
 
