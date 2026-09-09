@@ -17,7 +17,7 @@
             [ugachi.methods.gate :as gate]
             [etzhayyim.ie-flow.gate-adapter :as ga]
             [etzhayyim.ie-flow.metrics :as iem]
-            [kotoba.lang.text :as str]
+            [clojure.string :as str]
             #?(:clj [clojure.edn :as edn])))
 
 (def ^:private value-scale ga/default-value-scale)
