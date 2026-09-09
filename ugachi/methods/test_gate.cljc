@@ -4,7 +4,7 @@
 (ns ugachi.methods.test-gate
   (:require [ugachi.methods.ugachi-edn :as ue]
             [ugachi.methods.gate :as g]
-            [kotoba.lang.text :as str]
+            [clojure.string :as str]
             [clojure.test :refer [deftest is run-tests]]))
 
 (def seed-path "kotoba/seed.edn")

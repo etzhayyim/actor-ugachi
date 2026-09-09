@@ -24,7 +24,7 @@
   The gate REFUSES failing projects structurally (proven by tests): there is no
   path by which a no-consent / carbon-positive / monopoly-entrenching / irreversible
   project returns a permit. And there is NO actuation method — ugachi cannot extract."
-  (:require [kotoba.lang.text :as str]
+  (:require [clojure.string :as str]
             [ugachi.methods.ugachi-edn :as ue]))
 
 ;; ── pure gate ────────────────────────────────────────────────────────────────
