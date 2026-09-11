@@ -1,6 +1,6 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; ugachi 穿ち — §2(l) gate tests (incl. the constitutional refusal invariants).
-;; Run:  bb --classpath . ugachi/methods/test_gate.cljk
+;; Run:  kbb --classpath . ugachi/methods/test_gate.cljk
 (ns ugachi.methods.test-gate
   (:require [ugachi.methods.ugachi-edn :as ue]
             [ugachi.methods.gate :as g]

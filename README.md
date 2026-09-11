@@ -31,7 +31,7 @@ insufficient. Hard refusals precede recovery routing.
 
 ```bash
 ./run_tests.cljk                               # 14 tests / 37 assertions
-bb --classpath . ugachi/methods/gate.cljk   # print stewardship gate
+kbb --classpath . ugachi/methods/gate.cljk   # print stewardship gate
 ```
 
 R0 synthetic seed → 3 propose-r0 · 1 route-to-recovery · 5 refuse · 2 insufficient.

@@ -1,4 +1,4 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; ugachi 穿ち — stewardship-ledger kotoba Datom-log writer (content-addressed).
 (ns ugachi.methods.kotoba
   "kotoba.cljc — ugachi 穿ち append-only STEWARDSHIP LEDGER writer

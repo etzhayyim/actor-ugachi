@@ -1,4 +1,4 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; ugachi 穿ち — the §2(l) extraction RISK-GATE (clj-native, pure stdlib).
 (ns ugachi.methods.gate
   "ugachi 穿ち — the §2(l) multi-generational (子・孫) × wellbecoming extraction gate

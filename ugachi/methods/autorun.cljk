@@ -1,4 +1,4 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; ugachi 穿ち — autonomous heartbeat: assess → append verdicts to the stewardship ledger.
 (ns ugachi.methods.autorun
   "autorun.cljc — ugachi 穿ち deterministic heartbeat (ADR-2606170900).

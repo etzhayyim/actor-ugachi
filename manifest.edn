@@ -60,7 +60,7 @@
 
  :actor/tests
  {:runner "babashka"
-  :cmd "bb run_tests.cljk"
+  :cmd "kbb run_tests.cljk"
   :command ["bb" "run_tests.cljk"]
   :tests 40
   :assertions 114

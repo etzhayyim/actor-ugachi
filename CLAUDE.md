@@ -66,9 +66,9 @@ layer (busshi) into the EXECUTION layer (ugachi).
 
 ```bash
 ./run_tests.cljk                                    # 5 suites (32 tests / 94 assert)
-bb --classpath . ugachi/methods/gate.cljk        # print the stewardship gate
-bb --classpath . ugachi/methods/bridge.cljk      # print the busshi-grounded gate
-bb --classpath . ugachi/methods/autorun.cljk \
+kbb --classpath . ugachi/methods/gate.cljk        # print the stewardship gate
+kbb --classpath . ugachi/methods/bridge.cljk      # print the busshi-grounded gate
+kbb --classpath . ugachi/methods/autorun.cljk \
    kotoba/seed.edn 20-actors/busshi/kotoba/seed.edn   # heartbeat → append to ledger
 ```
 

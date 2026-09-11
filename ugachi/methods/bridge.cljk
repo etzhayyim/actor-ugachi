@@ -1,4 +1,4 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; ugachi 穿ち × busshi 物資 — grounding bridge (clj-native, pure stdlib).
 (ns ugachi.methods.bridge
   "ugachi × busshi grounding bridge (ADR-2606161830, Wave 2 of ADR-2606161800).
