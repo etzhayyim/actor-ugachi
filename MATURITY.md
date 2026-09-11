@@ -12,16 +12,16 @@
 ## Tests
 
 ```
-bb --classpath . ugachi/methods/test_ugachi_edn.cljc   # 3 tests / 8 assertions
-bb --classpath . ugachi/methods/test_gate.cljc         # 11 tests / 29 assertions
-bb --classpath . ugachi/methods/test_bridge.cljc       # 7 tests / 19 assertions (busshi grounding)
-bb --classpath . ugachi/methods/test_kotoba.cljc       # 5 tests / 16 assertions (ledger)
-bb --classpath . ugachi/methods/test_autorun.cljc      # 6 tests / 22 assertions (heartbeat + idempotency)
+bb --classpath . ugachi/methods/test_ugachi_edn.cljk   # 3 tests / 8 assertions
+bb --classpath . ugachi/methods/test_gate.cljk         # 11 tests / 29 assertions
+bb --classpath . ugachi/methods/test_bridge.cljk       # 7 tests / 19 assertions (busshi grounding)
+bb --classpath . ugachi/methods/test_kotoba.cljk       # 5 tests / 16 assertions (ledger)
+bb --classpath . ugachi/methods/test_autorun.cljk      # 6 tests / 22 assertions (heartbeat + idempotency)
 bb -cp "20-actors:70-tools/src:20-actors/kotodama/src" \
-   ugachi/methods/test_ie_flow.cljc                            # 4 tests / 12 assertions (SoS score)
+   ugachi/methods/test_ie_flow.cljk                            # 4 tests / 12 assertions (SoS score)
 ```
 
-40 tests / 114 assertions green via canonical `bb run_tests.clj`.
+40 tests / 114 assertions green via canonical `bb run_tests.cljk`.
 
 ## Invariants held
 

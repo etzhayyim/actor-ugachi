@@ -1,0 +1,21 @@
+{:format :kotoba.cljk-origin/v1
+ :renamed-on "2026-09-11"
+ :decision "adr-2609111500-cljk-rename-all-clojure-source (com-junkawasaki/root 90-docs/adr; owner instruction 2026-09-11)"
+ :rule "value = the extension the file had before the rename. A path ending in .clj.cljk or .cljs.cljk kept it in the name because both platform files existed (or the plain target was taken)."
+ :origins
+ {"run_tests.cljk" ".clj"
+  "ugachi/cells/social_post/state_machine.cljk" ".cljc"
+  "ugachi/methods/autorun.cljk" ".cljc"
+  "ugachi/methods/bridge.cljk" ".cljc"
+  "ugachi/methods/gate.cljk" ".cljc"
+  "ugachi/methods/ie_flow.cljk" ".cljc"
+  "ugachi/methods/kotoba.cljk" ".cljc"
+  "ugachi/methods/social.cljk" ".cljc"
+  "ugachi/methods/test_autorun.cljk" ".cljc"
+  "ugachi/methods/test_bridge.cljk" ".cljc"
+  "ugachi/methods/test_gate.cljk" ".cljc"
+  "ugachi/methods/test_ie_flow.cljk" ".cljc"
+  "ugachi/methods/test_kotoba.cljk" ".cljc"
+  "ugachi/methods/test_refusal_drivers.cljk" ".cljc"
+  "ugachi/methods/test_ugachi_edn.cljk" ".cljc"
+  "ugachi/methods/ugachi_edn.cljk" ".cljc"}}
