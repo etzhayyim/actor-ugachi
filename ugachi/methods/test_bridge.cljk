@@ -1,6 +1,6 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; ugachi × busshi grounding bridge tests.
-;; Run:  bb --classpath . ugachi/methods/test_bridge.cljk
+;; Run:  kbb --classpath . ugachi/methods/test_bridge.cljk
 (ns ugachi.methods.test-bridge
   (:require [ugachi.methods.ugachi-edn :as ue]
             [ugachi.methods.bridge :as br]

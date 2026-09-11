@@ -1,4 +1,4 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; ugachi 穿ち — ie-flow embedding (the SoS scoring leg) via the shared gate-adapter.
 (ns ugachi.methods.ie-flow
   "ie_flow.cljc — ugachi 穿ち embeds the information-energy flow lifecycle
