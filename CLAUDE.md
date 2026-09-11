@@ -13,7 +13,7 @@ exists; live extraction is Council Lv7+ gated, never performed here.
 
 `did:web:etzhayyim.com:ugachi` · `com.etzhayyim.ugachi.*` · ADR-2606161800 · clj-native R0.
 
-## The gate (verdict algebra, `ugachi/methods/gate.cljc`)
+## The gate (verdict algebra, `ugachi/methods/gate.cljk`)
 
 `verdict` → `{:refuse :route-to-recovery :propose-r0 :insufficient-evidence}`, in order:
 
@@ -38,11 +38,11 @@ exists; live extraction is Council Lv7+ gated, never performed here.
 ## Files
 
 ```
-ugachi/methods/ugachi_edn.cljc   loader + classify
-ugachi/methods/gate.cljc         verdict → assess → render-datoms → render-report (+ bb CLI)
-ugachi/methods/bridge.cljc       Wave 2: ground monopoly-effect in busshi concentration → ground-and-assess (+ bb CLI)
-ugachi/methods/kotoba.cljc       Wave 2: content-addressed append-only STEWARDSHIP LEDGER (tamper-evident commit-DAG)
-ugachi/methods/autorun.cljc      Wave 2: deterministic, idempotent-by-content heartbeat — assess → append ONLY on change (+ bb CLI)
+ugachi/methods/ugachi_edn.cljk   loader + classify
+ugachi/methods/gate.cljk         verdict → assess → render-datoms → render-report (+ bb CLI)
+ugachi/methods/bridge.cljk       Wave 2: ground monopoly-effect in busshi concentration → ground-and-assess (+ bb CLI)
+ugachi/methods/kotoba.cljk       Wave 2: content-addressed append-only STEWARDSHIP LEDGER (tamper-evident commit-DAG)
+ugachi/methods/autorun.cljk      Wave 2: deterministic, idempotent-by-content heartbeat — assess → append ONLY on change (+ bb CLI)
 ugachi/methods/test_*.cljc       gate verdicts + refusal/structural + grounding + ledger/heartbeat invariants
 kotoba/ontology.ugachi.edn  EAVT schema + enums + refuse-reasons + negative space
 kotoba/seed.edn           synthetic proposed projects spanning all verdicts
@@ -50,7 +50,7 @@ data/ (gitignored)        generated stewardship ledger — never committed/hand-
 manifest.edn              gates G1–G9 + non-goals N1–N5
 ```
 
-## Wave 2 — busshi grounding bridge (`ugachi/methods/bridge.cljc`, ADR-2606161830)
+## Wave 2 — busshi grounding bridge (`ugachi/methods/bridge.cljk`, ADR-2606161830)
 
 The gate's `:monopoly-effect` input was a free project field; the bridge GROUNDS it in
 **busshi 物資's actual concentration observation** (ADR-2606161730): map `:resource` → a busshi
@@ -65,10 +65,10 @@ layer (busshi) into the EXECUTION layer (ugachi).
 ## Run
 
 ```bash
-./run_tests.clj                                    # 5 suites (32 tests / 94 assert)
-bb --classpath . ugachi/methods/gate.cljc        # print the stewardship gate
-bb --classpath . ugachi/methods/bridge.cljc      # print the busshi-grounded gate
-bb --classpath . ugachi/methods/autorun.cljc \
+./run_tests.cljk                                    # 5 suites (32 tests / 94 assert)
+bb --classpath . ugachi/methods/gate.cljk        # print the stewardship gate
+bb --classpath . ugachi/methods/bridge.cljk      # print the busshi-grounded gate
+bb --classpath . ugachi/methods/autorun.cljk \
    kotoba/seed.edn 20-actors/busshi/kotoba/seed.edn   # heartbeat → append to ledger
 ```
 
