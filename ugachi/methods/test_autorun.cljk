@@ -6,7 +6,7 @@
             [ugachi.methods.autorun :as ar]
             [ugachi.methods.kotoba :as k]
             [ugachi.methods.gate :as gate]
-            [clojure.test :refer [deftest is run-tests]]
+            [kotoba.test :refer [deftest is run-tests]]
             [clojure.java.io :as io]))
 
 (def ug-seed "kotoba/seed.edn")

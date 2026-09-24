@@ -7,7 +7,7 @@
   refusal reason need not be the most severe. ASSESSMENT only — a stewardship profile of the
   constitutional reasons, never an industry name / target-list (G1/G2)."
   (:require [ugachi.methods.gate :as g]
-            [clojure.test :refer [deftest is run-tests]]))
+            [kotoba.test :refer [deftest is run-tests]]))
 
 (def ^:private projects
   ;; two frequent-but-low-risk no-consent refusals + one rare-but-high-risk irreversible refusal

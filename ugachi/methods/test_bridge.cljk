@@ -5,7 +5,7 @@
   (:require [ugachi.methods.ugachi-edn :as ue]
             [ugachi.methods.bridge :as br]
             [ugachi.methods.gate :as gate]
-            [clojure.test :refer [deftest is run-tests]]))
+            [kotoba.test :refer [deftest is run-tests]]))
 
 (def ug-seed "kotoba/seed.edn")
 (defn- projects [] (ue/projects ug-seed))

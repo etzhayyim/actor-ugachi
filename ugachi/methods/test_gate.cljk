@@ -5,7 +5,7 @@
   (:require [ugachi.methods.ugachi-edn :as ue]
             [ugachi.methods.gate :as g]
             [clojure.string :as str]
-            [clojure.test :refer [deftest is run-tests]]))
+            [kotoba.test :refer [deftest is run-tests]]))
 
 (def seed-path "kotoba/seed.edn")
 (defn- ps [] (ue/projects seed-path))
