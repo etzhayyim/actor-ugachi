@@ -24,7 +24,7 @@
   fabricates an :entrench (no false refusals); it only corroborates or downgrades."
   (:require [ugachi.methods.gate :as gate]
             [ugachi.methods.ugachi-edn :as ue]
-            [clojure.edn :as edn]
+            [kotoba.lang.edn :as edn]
             [clojure.java.io :as io]))
 
 (def busshi-analysis-paths
