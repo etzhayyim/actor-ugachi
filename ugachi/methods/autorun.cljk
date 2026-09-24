@@ -18,7 +18,7 @@
             [ugachi.methods.bridge :as bridge]
             [ugachi.methods.kotoba :as k]
             [ugachi.methods.ugachi-edn :as ue]
-            #?(:clj [clojure.edn :as edn])))
+            #?(:clj [kotoba.lang.edn :as edn])))
 
 (defn beat
   "Run one heartbeat. opts:
