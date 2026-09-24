@@ -3,7 +3,7 @@
 ;; Run:  kbb --classpath . ugachi/methods/test_ugachi_edn.cljk
 (ns ugachi.methods.test-ugachi-edn
   (:require [ugachi.methods.ugachi-edn :as ue]
-            [clojure.test :refer [deftest is run-tests]]))
+            [kotoba.test :refer [deftest is run-tests]]))
 
 (def seed-path "kotoba/seed.edn")
 

@@ -3,7 +3,7 @@
 ;; Run:  kbb --classpath . ugachi/methods/test_kotoba.cljk
 (ns ugachi.methods.test-kotoba
   (:require [clojure.string] [ugachi.methods.kotoba :as k]
-            [clojure.test :refer [deftest is run-tests]]
+            [kotoba.test :refer [deftest is run-tests]]
             [clojure.java.io :as io]))
 
 (defn- tmp [] (str (System/getProperty "java.io.tmpdir") "/ugachi-ledger-test-" (gensym) ".edn"))
